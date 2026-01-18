@@ -182,9 +182,10 @@ GameObject:
   - component: {fileID: 1100397835105201178}
   - component: {fileID: 8283211409785693742}
   - component: {fileID: 3164962635189280996}
+  - component: {fileID: 4341869151109133797}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -244,7 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fadb0870c744a14abf70b5259ebca57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4500
+  moveSpeed: 2000
   sprintSpeed: 6000
   maxSpeed: 20
   sprintMaxSpeed: 25
@@ -264,3 +265,17 @@ MonoBehaviour:
   staminaRegenRate: 15
   staminaDrainRate: 20
   staminaRegenDelay: 2
+--- !u!114 &4341869151109133797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9081146227326223215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e5e431cca0e42446af5d83454feb9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
